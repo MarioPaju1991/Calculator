@@ -1,8 +1,15 @@
-# React + Vite
+## Calculator Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![super_mario](https://github.com/MarioPaju1991/Calculator/assets/144430955/7ad42ea9-ce77-48af-adf9-70bdaae92f95)
 
-Currently, two official plugins are available:
+## Getting started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Run a server
+```
+npm run dev
+```
+## Built With
+- React 
+- Vite
+  
+
