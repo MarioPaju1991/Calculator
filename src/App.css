@@ -4,7 +4,11 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background-image: url('src/assets/images/super_mario.jpg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .calculator-grid {
@@ -13,7 +17,11 @@ body {
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
   justify-content: center;
+  border-radius: 15px;
+  border: 1px solid white;
 }
+
+
 
 .calculator-grid button {
   cursor: pointer;
@@ -34,7 +42,7 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(39, 18, 231, 0.75);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
